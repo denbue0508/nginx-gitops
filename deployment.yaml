@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ghcr.io/denbue0508/nginx-cicd-demo:latest
+          image: ghcr.io/denbue0508/nginx-cicd-demo:1.0
           ports:
             - containerPort: 80
           resources:
